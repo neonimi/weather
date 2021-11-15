@@ -6,9 +6,9 @@ html {
 }
 
 body {
-    font-family: 'Raleway','Noto Sans JP', sans-serif;
+    font-family: 'TsukuARdGothic-Regular','TsukuBRdGothic-Regular','American Typewriter','Raleway','Noto Sans JP', sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-display: swap;
     color: #333;
     margin: 0;
@@ -17,18 +17,34 @@ body {
 
 /* App.js */
 .wrapper {
-   width: 100vw;
-   height: 100vh;
-   background-color: aqua; 
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   background: url("./background-image.jpg") center center no-repeat;
-   background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* background-image */
+.timephoto {
+    background: url("./backgroud-morning.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+/* 10:00-16:00 */
+.morning {
+  background: url("./breakfast2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+/* 18:00-4:00 */
+.night {
+  background: url("./background-night1.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 .container {
-    width: 50vw;
+    width: 50%;
     text-align: center;
     padding: 40px 20px;
     border-radius: 15px;
@@ -37,7 +53,7 @@ body {
 }
 @media only screen and (max-width: 700px) {
     .container{
-        width: 80vw;
+        width: 80%;
     }
 }
 
@@ -67,7 +83,7 @@ button {
     border: 0;
     padding: 8px 20px;
     margin: 0 2px;
-    border-radius: 2px;
+    border-radius: 10px;
     letter-spacing: 1px;
     font-size: 1.5rem;
     cursor: pointer;
@@ -110,6 +126,10 @@ button:hover {
     font-size: 2.5rem;
 }
 
+.tc {
+  vertical-align: 2rem;
+}
+
 /* Loading.js */
 .loading {
     border: 4px solid #f15186;
@@ -125,41 +145,3 @@ button:hover {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
