@@ -28,17 +28,6 @@ function App() {
         conditionText: "",
         icon: ""
     });
-
-    // 時間帯で背景画像を変える
-    const hour = new Date().getHours();
-
-    if(hour >= 10 && hour < 15) {
-        document.();
-    } else if (hour >= 18 && hour <= 4) {
-        
-    } else {
-        
-    }
     
     //weatherapi呼び出し
     const getWeather = (e: React.FormEvent<HTMLFormElement>) => {//作成途中はe: any（なんでも）でOK
@@ -60,7 +49,7 @@ function App() {
         }).catch(err => alert("エラー発生が発生しました。ページをリロードしてください。"))
     }
     return (
-        <div className="wrapper timephoto">
+        <div id="wrap" className="wrapper timephoto">
             <div className="container">
                 <Title />
                 <Form setCity={setCity} getWeather={getWeather} city={city}/>
