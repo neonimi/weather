@@ -11,7 +11,7 @@ body {
     font-size: 2rem;
     font-display: swap;
     color: #333;
-    text-shadow: 0 0 10px #fff,0 0 10px #ffffff,0 0 10px gold;
+    text-shadow: 0 0 10px #fff,0 0 10px #fff,0 0 10px #fff;
     margin: 0;
     padding: 0;
 }
