@@ -11,6 +11,7 @@ body {
     font-size: 2rem;
     font-display: swap;
     color: #333;
+    text-shadow: 0 0 10px #fff,0 0 10px #ffffff,0 0 10px gold;
     margin: 0;
     padding: 0;
 }
@@ -128,6 +129,10 @@ button:hover {
 
 .tc {
   vertical-align: 2rem;
+}
+
+.text {
+
 }
 
 /* Loading.js */
