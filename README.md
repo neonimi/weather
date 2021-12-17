@@ -8,6 +8,10 @@ https://guru2weather.netlify.app/
 - API: weather API
 - 画像: unsplash
 
+## 言語・環境
+- 言語/フレームワーク: TypeScript/React
+- 公開: Netlify
+
 # 見え方
 ## トップ画面
 時間帯によって背景画像が変わるため、3種類の画面
