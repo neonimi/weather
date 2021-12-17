@@ -12,7 +12,7 @@ https://guru2weather.netlify.app/
 ## トップ画面
 時間帯によって背景画像が変わるため、3種類の画面
 7:00~11:59
-![weather_top_morning](https://user-images.githubusercontent.com/32536597/146498785-3320cce5-2ab9-4db1-9e6e-4826fb73fbcc.png)
+<img width="350" alt="weather_top_morning" src="https://user-images.githubusercontent.com/32536597/146498785-3320cce5-2ab9-4db1-9e6e-4826fb73fbcc.png">
 
 12:00~17:59
 ![weather_top](https://user-images.githubusercontent.com/32536597/146498763-6a84a7cd-e968-43f9-a155-ddc023482503.png)
