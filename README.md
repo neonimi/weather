@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+# weatherアプリ
+https://guru2weather.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 説明
+都市の天気情報を検索・表示するシングルページアプリケーション
 
-## Available Scripts
+# 利用データ
+- API: weather API
+- 画像: unsplash
 
-In the project directory, you can run:
+# 見え方
+## トップ画面
+時間帯によって背景画像が変わるため、3種類の画面
+7:00~11:59
+![weather_top_morning](https://user-images.githubusercontent.com/32536597/146498785-3320cce5-2ab9-4db1-9e6e-4826fb73fbcc.png)
 
-### `npm start`
+12:00~17:59
+![weather_top](https://user-images.githubusercontent.com/32536597/146498763-6a84a7cd-e968-43f9-a155-ddc023482503.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+18:00~3:59
+![weather_top_night](https://user-images.githubusercontent.com/32536597/146498795-033b6f9c-7cb7-4cc1-8417-0ac233b723c7.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 検索後の画面(tokyoで検索)
+![weather_done](https://user-images.githubusercontent.com/32536597/146498771-43580a62-ccb7-4187-ba8c-47e709abdd8a.png)
