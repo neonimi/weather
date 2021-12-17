@@ -26,4 +26,4 @@ https://guru2weather.netlify.app/
 
 ## 検索後の画面(tokyoで検索)
 
-![weather_done](https://user-images.githubusercontent.com/32536597/146498771-43580a62-ccb7-4187-ba8c-47e709abdd8a.png)
+<img width="350" alt="weather_done" src="https://user-images.githubusercontent.com/32536597/146498771-43580a62-ccb7-4187-ba8c-47e709abdd8a.png">
